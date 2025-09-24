@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "id": 65,
+      "lookupCode": null,
+      "name": "John Smith",
+      "arabicName": "جون سميث"
+    },
+    {
+      "id": 66,
+      "lookupCode": null,
+      "name": "Emily Johnson",
+      "arabicName": "إميلي جونسون"
+    },
+    {
+      "id": 3080,
+      "lookupCode": null,
+      "name": "Michael Brown",
+      "arabicName": "مايكل براون"
+    },
+    {
+      "id": 71,
+      "lookupCode": null,
+      "name": "Sophia Davis",
+      "arabicName": "صوفيا ديفيس"
+    },
+    {
+      "id": 62,
+      "lookupCode": null,
+      "name": "David Wilson",
+      "arabicName": "ديفيد ويلسون"
+    },
+    {
+      "id": 69,
+      "lookupCode": null,
+      "name": "Olivia Martinez",
+      "arabicName": "أوليفيا مارتينيز"
+    },
+    {
+      "id": 64,
+      "lookupCode": null,
+      "name": "James Anderson",
+      "arabicName": "جيمس أندرسون"
+    },
+    {
+      "id": 72,
+      "lookupCode": null,
+      "name": "Isabella Taylor",
+      "arabicName": "إيزابيلا تايلور"
+    },
+    {
+      "id": 63,
+      "lookupCode": null,
+      "name": "William Thomas",
+      "arabicName": "ويليام توماس"
+    }
+  ],
+  "isSucceeded": true,
+  "statusCode": 0,
+  "message": null
+}

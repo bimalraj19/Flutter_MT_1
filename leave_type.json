@@ -1,0 +1,61 @@
+{
+  "data": [
+    {
+      "id": 65,
+      "lookupCode": null,
+      "name": "Annual Leave",
+      "arabicName": "إجازة سنوية"
+    },
+    {
+      "id": 66,
+      "lookupCode": null,
+      "name": "Casual Leave",
+      "arabicName": "إجازة عارضة"
+    },
+    {
+      "id": 3080,
+      "lookupCode": null,
+      "name": "Child Care Leave",
+      "arabicName": "إجازة رعاية طفل"
+    },
+    {
+      "id": 71,
+      "lookupCode": null,
+      "name": "Delivery Leave",
+      "arabicName": "إجازة ولادة"
+    },
+    {
+      "id": 62,
+      "lookupCode": null,
+      "name": "Marriage Leave",
+      "arabicName": "إجازة زواج"
+    },
+    {
+      "id": 69,
+      "lookupCode": null,
+      "name": "Sick Leave",
+      "arabicName": "إجازة مرضية"
+    },
+    {
+      "id": 64,
+      "lookupCode": null,
+      "name": "Special Leave",
+      "arabicName": "إجازة خاصة"
+    },
+    {
+      "id": 72,
+      "lookupCode": null,
+      "name": "Paid Leave",
+      "arabicName": "إجازة مدفوعة"
+    },
+    {
+      "id": 63,
+      "lookupCode": null,
+      "name": "Unpaid Leave",
+      "arabicName": "إجازة بدون راتب"
+    }
+  ],
+  "isSucceeded": true,
+  "statusCode": 0,
+  "message": null
+}

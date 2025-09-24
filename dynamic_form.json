@@ -1,0 +1,91 @@
+{
+  "data": {
+    "id": 74,
+    "nameEn": "Leave Request ",
+    "nameAr": "طلب إجازة",
+    "formSections": [
+      {
+        "id": 164,
+        "labelEn": "Leave Type ",
+        "labelAr": "نوع الإجازة",
+        "type": 4,
+        "fieldMapping": "absenceType",
+        "apiUrl": "Leave/GetLeaveType",
+        "isRequired": true,
+        "isReadOnly": false,
+        "inputFieldValidations": [
+        ]
+      },
+      {
+        "id": 497,
+        "labelEn": "Start Date",
+        "labelAr": "اعتبارا من",
+        "type": 11,
+        "fieldMapping": "startDate",
+        "apiUrl": "",
+        "isRequired": true,
+        "isReadOnly": false,
+        "inputFieldValidations": [
+        ]
+      },
+      {
+        "id": 498,
+        "labelEn": "End Date",
+        "labelAr": "حتى",
+        "type": 11,
+        "fieldMapping": "endDate",
+        "apiUrl": "",
+        "isRequired": true,
+        "isReadOnly": false,
+        "inputFieldValidations": [
+        ]
+      },
+      {
+        "id": 499,
+        "labelEn": "Days",
+        "labelAr": "الأيام",
+        "type": 1,
+        "fieldMapping": "Days",
+        "apiUrl": "",
+        "isRequired": false,
+        "isReadOnly": true,
+        "isActive": true,
+        "inputFieldValidations": [
+          {
+            "id": 137,
+            "validationType": "CalculateDaysBetweenDates",
+            "validationValue": "startDate,endDate",
+            "inputFieldId": 499
+          }
+        ]
+      },
+      {
+        "id": 500,
+        "labelEn": "Comments",
+        "labelAr": "الملاحظات",
+        "type": 1,
+        "fieldMapping": "notes",
+        "apiUrl": "",
+        "isRequired": false,
+        "isReadOnly": false,
+        "inputFieldValidations": [
+        ]
+      },
+      {
+        "id": 548,
+        "labelEn": "Delegate To",
+        "labelAr": "مندوب إلى",
+        "type": 4,
+        "fieldMapping": "DelegateDuringLeave",
+        "apiUrl": "Leave/GetLeaveDelegations",
+        "isRequired": true,
+        "isReadOnly": false,
+        "inputFieldValidations": [
+        ]
+      }
+    ]
+  },
+  "isSucceeded": true,
+  "statusCode": 200,
+  "message": ""
+}
